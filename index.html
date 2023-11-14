@@ -1,0 +1,163 @@
+<html lang="es">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holograma 3D</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+        	display: flex;
+        	flex-direction: column;
+        	align-items: center;
+            background-color: #897ee1;
+            color: #000;
+            padding: 1em;
+            text-align: center;
+        }
+
+        header img{
+        	max-width: 100px;
+        	margin-bottom: 10px;
+        }
+
+        footer img{
+        	max-width: 100px;
+        	margin-bottom: 10px;
+        }
+        nav {
+        	display: flex;
+        	flex-direction: row;
+            background-color: #889dd7;
+            padding: 1em;
+            text-align: center;
+            border: solid #000 2px;
+        }
+
+        nav a {
+            color: #000000;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+        }
+
+        article{
+        	background-color: #fff;
+        	display: flex;
+        	flex-direction: column;
+        }
+
+        section h2{
+        	text-align: center;
+
+        }
+
+        section {
+            padding: 2em;
+           align-self: center;
+           text-align: center;
+           display: flex;
+           flex-direction: column;
+        }
+
+        section p{
+        	font-size: 16px;
+        }
+
+        .text-content{
+        	width: 50%;
+        	align-self: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        video{
+        	margin: 0px;
+        }
+
+        @media screen and (max-width: 600px){
+        	body{
+        		height: 200%;
+        	}
+        	footer{
+        		margin-bottom: 0;
+        	}
+        	nav{
+        		flex-direction: column;
+        		width: 60%;
+        	}
+        }
+
+
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Holograma 3D</h1>
+        <!-- Espacio para tu logo -->
+        <img src="I.P.P..png" alt="Logo">
+        <nav>
+       		<a href="#inicio">Inicio</a>
+       		<a href="#que-es?">Info</a>
+       		<a href="#aplicaciones">practicas</a>
+       		<a href="#imagenes">imagenes</a>
+   		 </nav>
+    </header>
+    <article>	
+  	  <section id="inicio">
+  	      <h2>Explorando la Dimensionalidad con Hologramas en 3D</h2>
+  	      <div class="text-content">
+  	      		<p>Bienvenido a nuestra fascinante travesía hacia el mundo de los hologramas en 3D, una tecnología innovadora que desafía los límites de la percepción visual. En esta página informativa, te sumergirás en la magia de los hologramas tridimensionales, descubrirás sus aplicaciones revolucionarias y aprenderás cómo esta tecnología está transformando diversas industrias.</p>
+  	    		<br>
+  	     		<p>Los hologramas en 3D representan la evolución definitiva en la visualización espacial, llevándonos más allá de las limitaciones tradicionales de las imágenes bidimensionales. A través de la síntesis de luz y proyección avanzada, los hologramas ofrecen experiencias visuales que desafían la realidad.</p>
+  	     	</div>
+  	  </section>
+	
+  	  <section id="que-es?">
+ 	       <h2>¿Qué es un Holograma en 3D?</h2>
+ 	       <div class="text-content">
+ 	       		<p>Es una representación visual de un objeto en tres dimensiones que parece existir en el espacio real, a pesar de no estar presente físicamente. A diferencia de las imágenes bidimensionales tradicionales, los hologramas en 3D capturan la información de la luz de manera que permite recrear la profundidad y la percepción tridimensional.</p>
+ 	       		<br>
+ 	       		<p>A continuacion se presenta el modelo utilizado en el proyecto:</p>
+ 	       </div>
+  	     <div class="img content"> <img src="prisma.jpeg" alt="Esquema explicativo de cómo se forma un holograma."> </div>
+ 	   </section>
+
+  	  <section id="aplicaciones">
+  	      <h2>Aplicaciones Prácticas</h2>
+  	      <div class="text-content">
+  	      	<p>Explora las infinitas posibilidades de los hologramas en la vida cotidiana y en diversas industrias. Desde presentaciones visuales impactantes hasta aplicaciones médicas y educativas, los hologramas están transformando la manera en que interactuamos con la información.</p>
+  	      </div>
+  	  </section>
+
+  	  <section id="imagenes">
+ 	       <h2>videos</h2>
+  	    <div class="text-content">
+  	    	<p>Estos son los videos utilizados para la proyeccion:</p>
+  	    </div>
+  	    <br>
+  	    <div>
+  	    	<video src="videos/mapa.mp4" width="320" height="170" controls></video>
+  	    	<video src="videos/snitch.mp4" width="320" height="170" controls></video>
+  	    	<video src="videos/varita.mp4" width="320" height="170" controls></video>
+  	    </div>
+ 	   </section>
+ 	</article>
+
+    <footer>
+        <p>&copy; Eico 3° I.P.P</p>
+        <!-- Espacio para el logo del pie de página -->
+        <img src="I.P.P..png" alt="Logo del pie de página">
+    </footer>
+</body>
+</html>
