@@ -84,18 +84,20 @@
         	margin: 10px;
         }
 
-        @media screen and (max-width: 600px){
-        	body{
-        		height: 200%;
-        	}
-        	footer{
+   	 @media screen and (max-width: 600px) {
+    		body {
+        		/* Elimina la altura adicional en dispositivos móviles */
+        		height: auto;
+    		}
+    		footer {
         		margin-bottom: 0;
-        	}
-        	nav{
+    		}
+    		nav {
         		flex-direction: column;
-        		width: 60%;
-        	}
-        }
+        		width: 100%; /* Ajusta el ancho al 100% */
+    		}
+	}
+
 
 
 
